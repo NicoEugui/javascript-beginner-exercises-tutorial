@@ -1,13 +1,13 @@
-const a = '</title>';
-const b = '</html>';
-const c = '<head>';
-const d = '</body>';
-const e = '<html>';
-const f = '</head>';
-const g = '<title>';
-const h = '<body>';
+const a = '<html>';
+const b = '<head>';
+const c = '<title>';
+const d = '</title>';
+const e = '</head>';
+const f = '<body>';
+const g = '</body>';
+const h = '</html>';
 
 //Modify this variable
-let htmlDocument = 'e+c+g+h+d+a+f+b';
+let htmlDocument = a + b + c + d + e + f + g + h;
 
 console.log(htmlDocument);
